@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Finder</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 2px;
+  border: 2px solid black;
+  border-width: 2PX;
+  border-radius: 5px;
+  width: 15% ;
+ border-top-right-radius: 15px;
+ border-block-start-width: 4px;
+  background-color: rgb(252, 79, 217);
+  text-emphasis-color: white
+  ;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin: 15px;
+  padding: 23px;
+  border: 5px solid rgb(4, 0, 4); 
+  background-color: rgb(252, 79, 217);
+  border-radius: 5px;
+  border-width: 2px;
+ 
+}
+
+form {
+  margin-top: 30px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #f709f7;
+}
+
+button {
+  background-color: #6f1ac5;
+  color: #8e0bf3;
+  padding: 10px;
+  border: none;
+  cursor: pointer;}
+  .class{
+    border: 10 px;
+  }
+  div h1{
+    border-color: #bd3b3b;
+  }
+  select name{
+       border: #b40aed;
+  }
+  .id location{
+     border: 20px;
+  }
+  .class a{
+    border: 5px solid green;
+    margin: 10px;
+    padding: 10px;
+  }
+  div .a{
+    margin: 20px ;
+  }
+  #class message-menu{
+    margin: 25px 45px;
+    align-items: center ;
+  }
+
+  
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <div id="logo">
+      <img src="logo.png" alt=" A Job Finder">
+    </div>
+    <ul>
+      <li class="item"><a href="#">Home</a></li>
+      <li class="item"><a href="#">Services</a></li>
+      <li class="item"><a href="#">About</a></li>
+      <li class="item"><a href="#">Contact us</a></li>
+      
+    </ul>
+  </nav>
+
+  
+  
+  <p> Choose a option what you want, We are here to help you</p>
+ 
+  <form>
+    <label for="NeedJob">Need Job</label>
+    <input type="radio" name="jobType" id="NeedJob" value="1">
+    
+    <label for="WantEmployee">Want Employee</label>
+    <input type="radio" name="jobType" id="WantEmployee" value="2"><br>
+    <br>
+  
+   
+
+    <label for="location">Select a location</label>
+    <select name="location" id="location">
+      <option value="Bagmati">Bagmati</option>
+      <option value="Bhaktapur">Bhaktapur</option>
+      <option value="Chitwan">Chitwan</option>
+      <option value="Dhading">Dhading</option>
+      <option value="Dhankuta">Dhankuta</option>
+      <option value="Dolakha">Dolakha</option>
+      <option value="Gorkha">Gorkha</option>
+      <option value="Ilam">Ilam</option>
+      <option value="Jhapa">Jhapa</option>
+      <option value="Kathmandu">Kathmandu</option>
+      <option value="Kavrepalanchok">Kavrepalanchok</option>
+      <option value="Lalitpur">Lalitpur</option>
+      <option value="Makwanpur">Makwanpur</option>
+      <option value="Morang">Morang</option>
+      <option value="Myagdi">Myagdi</option>
+      <option value="Nawalparasi">Nawalparasi</option>
+      <option value="Okhaldhunga">Okhaldhunga</option>
+      <option value="Palpa">Palpa</option>
+      <option value="Parbat">Parbat</option>
+      <option value="Pokhara">Pokhara</option>
+      <option value="Ramechhap">Ramechhap</option>
+      <option value="Rasuwa">Rasuwa</option>
+      <option value="Rupandehi">Rupandehi</option>
+      <option value="Salyan">Salyan</option>
+      <option value="Sankhuwasabha">Sankhuwasabha</option>
+      <option value="Sindhupalchok">Sindhupalchok</option>
+      <option value="Solukhumbu">Solukhumbu</option>
+      <option value="Sunsari">Sunsari</option>
+      <option value="Syangja">Syangja
+    </select>
+    
+    <label for="Work Type's">Select a Work</label>
+    <select name="Work" id="Work">
+      <option value="Data entry operator">Data entry operator</option>
+      <option value="Customer service representative">Customer service representative</option>
+      <option value="Telecaller">Telecaller</option>
+      <option value="Storekeeper">Storekeeper</option>
+      <option value="Receptionist">Receptionist</option>
+      <option value="Housekeeping staff">Housekeeping staff</option>
+      <option value="Security guard">Security guard</option>
+      <option value="Delivery boy/girl">Delivery boy/girl</option>
+      <option value="Waitress/waiter">Waitress/waiter</option>
+      <option value="Handyman">Handyman</option><br>
+
+      <option value="Office assistant">Office assistant</option>
+      <option value="Sales representative">Sales representative</option>
+      <option value="Marketing executive">Marketing executive</option>
+      <option value="Accountant">Accountant</option>
+      <option value="Graphic designer">Graphic designer</option>
+      <option value="Web developer">Web developer</option>
+      <option value="Teacher">Teacher</option>
+      <option value="Nurse">Nurse</option>
+      <option value="Engineer">Engineer</option>
+      <option value="Lawyer">Lawyer</option><br>
+
+      <option value="Business owner">Business owner</option>
+      <option value="Manager">Manager</option>
+      <option value="Director">Director</option>
+      <option value="CEO">CEO</option>
+      <option value="Doctor">Doctor</option>
+      <option value="Lawyer">Lawyer</option>
+      <option value="Architect">Architect</option>
+      <option value="Engineer">Engineer</option>
+      <option value="Professor">Professor</option>
+      <option value="Banker">Banker<option>
+      
+    </select>
+    <br>
+    <br>
+
+  
+   <label for="Phone Number">Phone Number:</label>
+   <input type="text" id="name" name="name" required><br><br>
+
+   <label for="name">Name:</label><input type="text" id="name" name="name" required><br><br>
+   
+    <label for="Email"></label>Email:</label> <input type="text" id="Email" name="Email" required><br><br>
+  
+   <label for="message">Message:</label><br><textarea id="message" name="message"rows="4" cols="50" required></textarea><br><br>
+   <input type="submit" value="Submit">
+  </form>
+   <br>
+    <div class="massage-menu">
+      <ul b>
+       
+        <a href="Phone:+9779806809005">Call Us</a>
+      
+        <a href="aadityasahani981@gmail.com">Email Us</a>
+      
+      </ul b>
+    </div>
+  <br>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Message Box</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    #messageBox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#messageBoxContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #24e6ac;
+  padding: 20px;
+}
+
+#closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#messageInput {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #0b0000;
+  border: none;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <button onclick="openMessageBox()">Text Us</button>
+  
+  <div id="messageBox">
+    <div id="messageBoxContent">
+      <div id="closeButton" onclick="closeMessageBox()">&times;</div>
+      <h2>Send us a message</h2>
+      <textarea id="messageInput" rows="4" placeholder="Type your message here..."></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  <script>
+    function openMessageBox() {
+  document.getElementById("messageBox").style.display = "block";
+}
+
+function closeMessageBox() {
+  document.getElementById("messageBox").style.display = "none";
+}
+
+function sendMessage() {
+  var message = document.getElementById("messageInput").value;
+  // You can handle the message here, e.g., send it to a server or display it on the console
+  console.log("Message: " + message);
+  closeMessageBox();
+}
+
+  </script>
+</body>
+</html>
+
